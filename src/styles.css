@@ -1,0 +1,50 @@
+html,
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.control {
+  flex: 50%;
+  overflow: hidden;
+}
+
+#preview {
+  flex: 50%;
+}
+
+#content {
+  width: 2573px;
+  opacity: 0.1;
+}
+
+#content #p1 {
+  position: relative;
+}
+
+#p1 #text {
+  width: 100%;
+  font-family: Calibri;
+  position: absolute;
+  top: 620px;
+  text-align: center;
+}
+
+#paragraph {
+  font-size: 49px;
+  text-align: left;
+  padding: 0 373px;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: bold;
+}

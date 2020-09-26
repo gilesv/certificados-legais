@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="control">
+        <div id="form">
+          <h2>Gerador de certificado Simpósio</h2>
+          <label for="name">Nome</label>
+          <input type="text" id="name" />
+          <br />
+          <br />
+
+          <label for="template">Modelo</label>
+          <select id="template">
+            <option value="coordenador">Coordenador</option>
+            <option value="moderador">Moderador</option>
+            <option value="palestrante">Palestrante</option>
+          </select>
+          <br />
+          <br />
+
+          <label for="event">Mesa Redonda</label>
+          <input type="text" id="event" />
+          <br />
+          <br />
+
+          <label for="date">Dia</label>
+          <input type="number" id="date" />
+          <br />
+          <br />
+
+          <button id="gerar">Gerar</button>
+        </div>
+
+        <div id="content">
+          <div id="p1">
+            <img src="src/templates/image1.png" />
+            <div id="text">
+              <h1>Certificado</h1>
+              <p id="paragraph"></p>
+            </div>
+          </div>
+
+          <div id="p2">
+            <img src="src/templates/image2.png" />
+          </div>
+        </div>
+      </div>
+
+      <div id="preview"></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
